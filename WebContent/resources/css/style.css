@@ -1,0 +1,284 @@
+body {
+background-color: #f4f4f4;
+color: #ffffff;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.5em;
+
+background-image: url(../images/carparking.png);
+height: 600px; width: 1200px; border: 0px solid black;	
+}
+
+*{
+ margin:0px;
+ padding:0px;
+ }
+
+ #containerreg{
+ width:750px;
+ 
+ margin:auto;
+ margin-top:10px;
+ margin-bottom:10px;
+ box-shadow:0 0 3px #999;
+ }
+ 
+#container{
+ width:550px;
+ 
+ margin:auto;
+ margin-top:10px;
+ margin-bottom:10px;
+ box-shadow:0 0 3px #999;
+ }
+#container_body{
+ padding:50px;
+ margin:auto;
+ margin-top:100px;
+ margin-bottom:10px;
+ box-shadow:0 0 100px #999;
+ 
+ }
+.form_title{
+ font-size:25px;
+ color:#f4f4f4;
+ text-align:center;
+ padding:10px;
+ font-weight:normal;
+ }
+.head_para{
+ font-size:19px;
+ color:#99a2a7;
+ text-align:center;
+ font-weight:normal;
+ }
+#form_name{
+ padding:25px 0 0 15px;
+ margin-top:100px;
+ margin-bottom:10px;
+ }
+.firstnameorlastname{
+  margin-right:20px;
+ }
+ .userid{
+ margin-right:20px;
+ }
+ .mailid
+ {
+ margin-right:20px;
+ }
+ .mobile{
+ margin-right:20px;
+ }
+ .password
+ {
+ margin-right:20px;
+ }
+.input_name{
+ width:207px;
+ padding:5px;
+ font-size:18px;
+ }
+#email_form{
+ clear:both;
+ padding:15px 0 10px 0px;
+ 
+ }
+ 
+ 
+.input_useridpwd{
+ width:434px;
+ padding:5px;
+ font-size:18px;
+ }
+ 
+.input_email{
+ width:434px;
+ padding:5px;
+ font-size:18px;
+ }
+#mobile_form{
+	padding:10px 0 10px 0px;
+	}
+#mailid_form{
+	padding:10px 0 10px 0px;
+	}
+#Re_email_form{
+ padding:10px 0 10px 0px;
+ }
+.input_Re_email{
+ width:434px;
+ padding:5px;
+ font-size:18px;
+ }
+#password_form{
+ padding:10px 0 10px 0px;
+ }
+.input_password{
+ width:434px;
+ padding:5px;
+ font-size:18px;
+ }
+.birthday_title{
+ font-size:16px;
+ color:#8b919d;
+ font-weight:normal;
+ padding:0 0 10px 0;
+ }
+select{
+ padding:5px;
+ }
+#birthday{
+ font-size:12px;
+ color:#8b919d;
+ padding-top:10px;
+ }
+#radio_button{
+ padding:10px 0 0 0;
+ }
+#sign_user{
+ font-size:14px;
+ color:#FFF;
+ text-align:center;
+ background-color:#008dde;
+ padding:10px;
+ margin-top:10px;
+ cursor: pointer;
+ }
+#errorBox{
+ color:#F00;
+ }
+
+
+
+
+
+input[type="button"]
+{
+background-color: #008dde;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #f4f4f4;
+cursor: pointer;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+height: 50px;
+text-transform: uppercase;
+width: 150px;
+-webkit-appearance:none;
+	
+	}
+
+
+
+
+
+
+
+	input[type="text"],textarea, input[type="password"],input[type="email"] {
+background-color: #e5e5e5;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 14px;
+height: 50px;
+outline: none;
+padding: 0px 10px;
+width: 280px;
+-webkit-appearance:none;
+}
+
+
+a {
+color: red;
+font-size: 16px;
+}
+a:hover { text-decoration: underline; }
+
+a { text-decoration: none; }
+h1 { font-size: 1em; }
+h1, p {
+margin-bottom: 10px;
+}
+strong {
+font-weight: bold;
+}
+.uppercase { text-transform: uppercase; }
+
+.ordiv
+{
+border-radius: 50%;
+width: 5%;
+height: auto;
+padding-top: 5%;
+background: #008080;
+
+}
+
+
+
+input[type="submit"]
+{
+background-color: #008dde;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #f4f4f4;
+cursor: pointer;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+height: 50px;
+text-transform: uppercase;
+width: 150px;
+-webkit-appearance:none;
+	
+	}
+
+
+
+#commentForm {
+		width: 500px;
+	}
+	#commentForm label {
+		width: 250px;
+	}
+	#commentForm label.error, #commentForm input.submit {
+		margin-left: 253px;
+	}
+	#signupForm {
+		width: 670px;
+	}
+	#signupForm label.error {
+		margin-left: 10px;
+		width: auto;
+		display: inline;
+	}
+	#newsletter_topics label.error {
+		display: none;
+		margin-left: 103px;
+	}
+
+
+
+
+#menubar {
+    width: 1350px;
+    height: 45px;
+    font-size: 14px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: italic;
+    text-align: left;
+    text-shadow: 1px 1px 1px #ffffff;
+    background-color: black;
+        border-radius: 3px;
+}
+
+#mainpage{
+ padding:1000px 0 0 15px;
+ margin-top:100px;
+ margin-bottom:10px;
+ }
